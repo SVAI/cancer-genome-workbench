@@ -1,0 +1,63 @@
+.container{
+    padding-bottom: 55px;
+}
+.page-header {
+    min-height: 100%;
+    text-align: center;
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -15px;
+}
+.header-contents {
+    top: 50%;
+    position:absolute;
+}
+.header-contents h1 {
+    font-size: 120px;
+    font-weight: 300;
+}
+.header-contents button {
+    font-size: 35px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+
+.header-contents button:focus {
+    outline: None;
+}
+.login-box{
+    margin-top: 50px;
+    padding-bottom: 14px;
+    float: none;
+}
+.nav{
+    margin-bottom: 5px;
+}
+#samples_table tbody tr:hover{
+    cursor: pointer;
+}
+#sample_header{
+    padding: 20px 0;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.vcenter .glyphicon:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+.vcenter .glyphicon-plus{
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+.vcenter .glyphicon-minus{
+    width: 100%;
+    font-size: 35px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
